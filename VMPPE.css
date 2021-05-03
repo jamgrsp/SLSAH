@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 150px;
+  text-align: center;
+  background-image: url(IMAGES/HEADER.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 50%;
+}
+
+.headerlogo {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 15px;
+}
+
+.rows {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.columns {
+  flex: 30%;
+  padding: 1px;
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+
+body {
+  background-image: url('IMAGES/B&W-BACKGROUND.gif');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.column {
+  float:right;
+  width: 33%;
+  padding: 10px;
+  margin-top: 280px;
+  margin-right: 200px;
+  margin-left: 50px;
+}
+
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.topnav {
+overflow: hidden;
+background-color: #f0f7f4;
+}
+
+.topnav a {
+float: right;
+display: block;
+color: darkblue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family:serif;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer p {
+  font-style: oblique;
+  font-size: 25px;
+  text-align: justify, center;
+}
+
+.mySlides {
+	display: none;
+	height: 100%;
+	font-family: serif;
+}
+.mySlides img {
+	width: 100%;
+	height: 100%;
+}
+.slideshow-container {
+	overflow: hidden;
+	position: relative;
+	margin: auto;
+	width: 520px;
+	height: 250px;
+}
+.slide-prev, .slide-next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+.slide-next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.slide-prev:hover, .slide-next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.animated { 
+   -webkit-animation-name: fadeIn; 
+           animation-name: fadeIn; 
+   -webkit-animation-duration: 1s; 
+           animation-duration: 1s; 
+} 
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+.fadeIn { 
+    -webkit-animation-name: fadeIn; 
+    animation-name: fadeIn; 
+}

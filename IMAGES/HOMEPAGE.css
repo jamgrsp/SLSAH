@@ -1,0 +1,43 @@
+* {
+        box-sizing: border-box;
+    }
+        body, html {
+            background-image: url(IMAGES/BACKGROUND.gif);
+            color:lightseagreen;
+    }
+        .logo{
+            position: absolute;
+            margin-top: 6px;
+            margin-left: 25px;
+    }
+        .navbar a{
+            color: aliceblue;
+            display: block;
+            font-family: sans-serif;
+            text-align: center;
+            width:90%;
+            height: 20%;
+            margin: 10px;
+            margin-left: 60px;
+            
+    }
+        .navbar ul{   
+            list-style: none;
+            background-color: transparent;
+            padding: 50px;
+            margin: 2px;
+            text-align: center;
+    }
+        .navbar li{
+            display: inline-block;
+            padding: 0px;
+    }
+
+        h1 {
+            text-align: center;
+            margin-left: 150;
+            font-style: inherit; color:grey;
+    }
+        h4 {
+            font-style: inherit; color:blue;
+    }
